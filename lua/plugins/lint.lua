@@ -4,8 +4,8 @@ return {
     linters_by_ft = {
       lua = { "luacheck" },
       ansible = { "ansible_lint" },
-      c = { "clang-tidy" },
-      cpp = { "clang-tidy" },
+      c = { "clangtidy" },
+      cpp = { "clangtidy" },
       python = { "pylint" },
     },
   },
