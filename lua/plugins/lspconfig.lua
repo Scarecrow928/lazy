@@ -8,7 +8,10 @@ return {
         bashls = { mason = false },
         lua_ls = { mason = false },
         ansiblels = { mason = false },
-        clangd = { mason = false },
+        clangd = {
+          mason = false,
+          cmd = { "clangd", "--clang-tidy" },
+        },
         rust_analyzer = { mason = false },
         pyright = { mason = false },
       },
