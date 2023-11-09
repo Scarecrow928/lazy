@@ -10,7 +10,15 @@ return {
         ansiblels = { mason = false },
         clangd = {
           mason = false,
-          cmd = { "clangd", "--clang-tidy" },
+          cmd = {
+            "clangd",
+            "--clang-tidy",
+            "-j=4",
+            "--background-index",
+            "--background-index-priority=normal",
+            "--header-insertion=iwyu",
+            jit.os ~= "Windows" and "--malloc-trim" or nil,
+          },
         },
         rust_analyzer = { mason = false },
         pyright = { mason = false },
