@@ -11,6 +11,7 @@ return {
         "python",
         "java",
         "rust",
+        "go",
         "markdown",
         "markdown_inline",
         "yaml",
