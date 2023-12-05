@@ -16,6 +16,7 @@ return {
         "markdown_inline",
         "yaml",
         "json",
+        "regex",
       },
     },
   },
