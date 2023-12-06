@@ -5,3 +5,5 @@
 vim.keymap.set("n", ";", ":", { silent = true })
 vim.keymap.set("n", "<A-a>", "<C-o>", { silent = true })
 vim.keymap.set("n", "<A-d>", "<C-i>", { silent = true })
+vim.keymap.set("n", "<C-`>", ":ToggleTerm<CR><C-\\><C-n>i", { silent = true })
+vim.keymap.set("t", "<C-`>", "<C-\\><C-n>:ToggleTerm<CR>", { silent = true })
