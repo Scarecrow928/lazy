@@ -22,6 +22,7 @@ return {
         },
         rust_analyzer = { mason = false },
         pyright = { mason = false },
+        cmake = { mason = false },
       },
 
       ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>

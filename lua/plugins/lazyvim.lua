@@ -7,5 +7,8 @@ return {
     opts = {
       colorscheme = "monokai-pro",
     },
+    checker = {
+      notify = false,
+    },
   },
 }
